@@ -40,11 +40,38 @@
             <version>1.33.0</version>
         </dependency>
 
+        <!-- Sa-Token 整合 Redis （使用 jackson 序列化方式） -->
+        <dependency>
+            <groupId>cn.dev33</groupId>
+            <artifactId>sa-token-dao-redis-jackson</artifactId>
+            <version>1.33.0</version>
+        </dependency>
+
+<!--        引入satoken独立依赖-->
+        <dependency>
+            <groupId>cn.dev33</groupId>
+            <artifactId>sa-token-alone-redis</artifactId>
+            <version>1.33.0</version>
+        </dependency>
+
+        <!--引入Hutool依赖-->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.8.10</version>
+        </dependency>
         <!-- 引入Tlog依赖-->
         <dependency>
             <groupId>com.yomahub</groupId>
             <artifactId>tlog-all-spring-boot-starter</artifactId>
             <version>1.5.0</version>
+        </dependency>
+
+        <!-- Sa-Token 整合 jwt -->
+        <dependency>
+            <groupId>cn.dev33</groupId>
+            <artifactId>sa-token-jwt</artifactId>
+            <version>1.33.0</version>
         </dependency>
 
     </dependencies>
